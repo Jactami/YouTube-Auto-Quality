@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Auto Quality</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div id="content">
+        <div>
+            <fieldset id="enable-fieldset">
+                <legend>Enable or disable extension:</legend>
+                <div>
+                    <input type="checkbox" id="toggle-enable" name="toggle-enable">
+                    <label for="toggle-enable">Enable</label>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset id="quality-fieldset">
+                <legend>Select preferred quality:</legend>
+                <div>
+                    <input type="radio" id="option-4320p" name="quality-option" value="4320">
+                    <label for="option-4320p">4320p</label>
+                </div>
+                <div>
+                    <input type="radio" id="option-2160p" name="quality-option" value="2160">
+                    <label for="option-2160p">2160p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-1440p" name="quality-option" value="1440">
+                    <label for="option-1440p">1440p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-1080p" name="quality-option" value="1080">
+                    <label for="option-1080p">1080p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-720p" name="quality-option" value="720">
+                    <label for="option-720p">720p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-480p" name="quality-option" value="480">
+                    <label for="option-480p">480p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-360p" name="quality-option" value="360">
+                    <label for="option-360p">360p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-240p" name="quality-option" value="240">
+                    <label for="option-240p">240p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-144p" name="quality-option" value="144">
+                    <label for="option-144p">144p</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="option-Auto" name="quality-option" value="Auto">
+                    <label for="option-Auto">Auto</label><br>
+                </div>
+            </fieldset>
+            <div>
+                <p id="note">
+                    Note: If YouTube does not provide your preferred quality, the highest possible quality is
+                    selected instead.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

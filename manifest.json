@@ -1,0 +1,25 @@
+{
+    "name": "YouTube Auto Quality",
+    "version": "0.1",
+    "manifest_version": 3,
+    "author": "Jactami",
+    "description": "Set the quality of any YouTube video automatically to a predefined standard",
+    "icons": {},
+    "content_scripts": [{
+        "matches": [
+            "*://youtube.com/*",
+            "*://www.youtube.com/*"
+        ],
+        "js": [
+            "content.js"
+        ],
+        "run_at": "document_start"
+    }],
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "YouTube Auto Quality"
+    }
+}

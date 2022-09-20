@@ -1,0 +1,35 @@
+legend {
+    font-size: .75rem;
+    white-space: nowrap;
+    margin-bottom: 0.2rem;
+}
+
+fieldset {
+    margin-bottom: .5rem;
+}
+
+#enable-fieldset {
+    text-align: center;
+}
+
+#quality-fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: .7rem;
+}
+
+label {
+    font: .8rem 'Fira Sans', sans-serif;
+    vertical-align: middle;
+}
+
+input {
+    margin-top: 0;
+    margin-right: .05rem;
+    vertical-align: middle
+}
+
+#note {
+    font-size: .65rem;
+    font-style: italic;
+}
